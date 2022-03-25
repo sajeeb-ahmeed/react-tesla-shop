@@ -5,7 +5,7 @@ import { Button, Container, Form, FormControl, Nav, Navbar, NavDropdown, Offcanv
 const Header = () => {
     return (
         <div>
-            <Navbar fixed="top" bg="dark" variant="dark" expand={false}>
+            <Navbar bg="dark" variant="dark" expand={false}>
                 <Container fluid>
                     <Navbar.Brand className='fw-bold ms-5 text-uppercase ' href="#">
                         The Luxurious
