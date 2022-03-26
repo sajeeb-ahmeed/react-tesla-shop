@@ -10,7 +10,7 @@ const Product = (props) => {
     return (
         <div className='col-12 products ' style={{ height: '45rem' }}>
             <>
-                <img src={img} alt="" className='img-fluid mb-4 ' width={400} height={400} />
+                <img src={img} alt="" className=' mb-4 ' width={400} height={400} />
                 <h4>{name.slice(0, 30)}</h4>
                 <h4>Price:  $ {price}</h4>
                 <h6>Manufactured:  {seller}</h6>
