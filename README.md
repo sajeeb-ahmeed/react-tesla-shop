@@ -1,15 +1,15 @@
 #  THE LUXURIOUS CARS SHOP
 
-This project was Programming Hero's Web Course  with [LUXRIOUS SHOP](https://github.com/Programming-Hero-Web-Course4/lucky-one-sajeeb-ahmeed.git).
+This project was Luxerious Cars Super Duper Shop  [LUXRIOUS SHOP](https://luxsurious-cars.netlify.app/).
 
-## Available Scripts
+## Available Cars 
 
 In the project directory, you can run:
 
-### `npm start`
+### `Shop Now`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [Live site . Shop Now !](https://luxsurious-cars.netlify.app/) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
