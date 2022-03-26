@@ -20,3 +20,17 @@
     align-items: center;
     justify-content: center;
 }
+@media only screen and (max-width: 600px){
+    .products:hover img{
+        transform: scale(1);
+        
+    }
+    .products{
+        border: 1px solid lightgray;
+        /* padding: 10px; */
+        border-radius: 15px;
+        position: relative;
+        display: block;
+    }
+    
+}

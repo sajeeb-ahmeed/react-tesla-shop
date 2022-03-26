@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Alert, Button } from 'react-bootstrap';
 import './Cart.css'
 const Cart = (props) => {
-    const { cart } = props;
+    const { cart, id } = props;
     console.log(cart);
     // aleart 
     function Alertmiss() {
@@ -31,14 +31,40 @@ const Cart = (props) => {
     }
     console.log(cart);
 
+    // show product name on UI 
     const ProductCart = cart.map(products => <h5 key={products.id} className='bg-infos p-3'>{products.name}</h5>);
     console.log(ProductCart);
-    const newCart = [...ProductCart]
+    const newCart = [...ProductCart];
+    console.log(newCart);
+
+    //get price 
+
+    let total = 0;
+    for (const product of cart) {
+        total = total + product.price;
+    }
+
+    // Random item select 
+
+    function randomIntFromInterval(newCart) { // min and max included 
+        const a = newCart[Math.floor(Math.random() * newCart.length)];
+        return alert(a[0])
+
+    }
+
+    // const rndInt = randomIntFromInterval(newCart, 2)
+    // console.log(rndInt)
+    // const res = Math.floor(Math.random() * 11);
+    // console.log(res);
 
     return (
         <div className='cart'>
-            <h1>Selected Items: <span className='text-danger'>{cart.length}</span> </h1>
-            <h5 >{newCart}</h5>
+            <h2 className='mb-3'>Selected Items: <span className='text-danger'>{cart.length}</span> </h2>
+            < >{newCart}</>
+            <h4 className='p-lg-3 p-1 price'>Total Price: $ {total}</h4>
+            <p className='btn btn-outline-dark' onClick={() => randomIntFromInterval(newCart)} >Random Item Select</p> <br />
+            <p className='btn btn-outline-dark'>Chosse Again</p>
+
         </div>
     )
 

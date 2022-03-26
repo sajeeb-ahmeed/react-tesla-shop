@@ -7,7 +7,7 @@ const Header = () => {
         <div>
             <Navbar bg="dark" variant="dark" expand={false}>
                 <Container fluid>
-                    <Navbar.Brand className='fw-bold ms-5 text-uppercase ' href="#">
+                    <Navbar.Brand className='fw-bold ms-lg-5 text-uppercase ' href="#">
                         The Luxurious
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="offcanvasNavbar" />

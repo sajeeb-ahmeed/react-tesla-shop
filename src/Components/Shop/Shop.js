@@ -22,7 +22,7 @@ const Shop = () => {
     }
     return (
         <div className=' container-fulid  row mt-5'>
-            <div className="col-md-8 mx-auto ms-5">
+            <div className="col-md-8 mx-auto ms-lg-5">
                 <div className='product-container'>
 
                     {
