@@ -11,6 +11,8 @@ function Alertmiss() {
         return (
             <Alert variant="danger" onClose={() => setShow(false)} dismissible>
                 <Alert.Heading>Oh snap! You got an error! You can select only 4 items</Alert.Heading>
+
+                <h3 className='text-dark'>Reload & Try Again</h3>
                 <p>
                     Change this and that and try again. Duis mollis, est non commodo
                     luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
@@ -23,7 +25,7 @@ function Alertmiss() {
 };
 
 
-function MyVerticallyCenteredModal({ name, ...props }) {
+function MyVerticallyCenteredModal({ name, price, Description, ...props }) {
     return (
         <Modal
             {...props}
@@ -33,15 +35,14 @@ function MyVerticallyCenteredModal({ name, ...props }) {
         >
             <Modal.Header closeButton>
                 <Modal.Title id="contained-modal-title-vcenter">
-                    {name}
+                    Model:  {name}
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                <h4>Centered Modal</h4>
+                <h4> Your Random Luck ! 😍</h4>
+                <h6> Price : $ {price}</h6>
                 <p>
-                    Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-                    dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-                    consectetur ac, vestibulum at eros.
+                    {Description}
                 </p>
             </Modal.Body>
             <Modal.Footer>
@@ -103,7 +104,7 @@ const Cart = (props) => {
 
             {
                 modalShow ? <MyVerticallyCenteredModal show={modalShow}
-                    onHide={() => setModalShow(false)} name={randomCard.name || 'Click Again'}></MyVerticallyCenteredModal> : ''
+                    onHide={() => setModalShow(false)} price={randomCard.price || ''} name={randomCard.name || 'Click Again'} Description={randomCard.Description || ''}></MyVerticallyCenteredModal> : ''
             }
 
         </div>
