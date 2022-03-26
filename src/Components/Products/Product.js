@@ -6,7 +6,7 @@ import { MdAddShoppingCart } from 'react-icons/md';
 
 const Product = (props) => {
     // console.log(props.product);
-    const { name, img, price, Description, seller, id } = props.product;
+    const { name, img, price, Description, seller } = props.product;
     return (
         <div className='col-12 products ' style={{ height: '45rem' }}>
             <>
@@ -16,7 +16,7 @@ const Product = (props) => {
                 <h6>Manufactured:  {seller}</h6>
                 <small> <code>Description:</code> {Description}</small>
 
-                <span onClick={() => props.handdleAddRoCart(props.product)} className=' btn btn-outline-dark w-100 button'> Add To Cart <MdAddShoppingCart></MdAddShoppingCart> </span>
+                <span onClick={() => props.handdleAddRoCart(props.product)} className=' btn btn-outline-dark  button'> Add To Cart <MdAddShoppingCart></MdAddShoppingCart> </span>
             </>
 
         </div>

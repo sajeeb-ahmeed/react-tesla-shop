@@ -21,13 +21,13 @@ const Header = () => {
                         </Offcanvas.Header>
                         <Offcanvas.Body>
                             <Nav className="justify-content-end flex-grow-1 pe-3">
-                                <Nav.Link href="#action1">Home</Nav.Link>
-                                <Nav.Link href="#action2">Shop</Nav.Link>
+                                <Nav.Link href="../../App.js">Home</Nav.Link>
+                                <Nav.Link href="../../App.js">Shop</Nav.Link>
                                 <NavDropdown title="Get in Touch" id="offcanvasNavbarDropdown">
-                                    <NavDropdown.Item href="#action3">Contact</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action4">About Us</NavDropdown.Item>
+                                    <NavDropdown.Item href="../../App.js">Contact</NavDropdown.Item>
+                                    <NavDropdown.Item href="../../App.js">About Us</NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item href="#action5">
+                                    <NavDropdown.Item href="../../App.js">
                                         Something else here
                                     </NavDropdown.Item>
                                 </NavDropdown>
