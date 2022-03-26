@@ -4,6 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Components/Header/Header';
 import Shop from './Components/Shop/Shop';
 import Question from './Components/Questions/Question';
+import Fotter from './Components/footer/Fotter';
+
+
 
 
 
@@ -15,6 +18,7 @@ function App() {
       <Header></Header>
       <Shop></Shop>
       <Question></Question>
+      <Fotter></Fotter>
     </div>
   );
 }

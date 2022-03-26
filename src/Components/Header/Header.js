@@ -20,7 +20,7 @@ const Header = () => {
                             <Offcanvas.Title id="offcanvasNavbarLabel">The Luxurious</Offcanvas.Title>
                         </Offcanvas.Header>
                         <Offcanvas.Body>
-                            <Nav className="justify-content-end flex-grow-1 pe-3">
+                            <Nav className="justify-content-end flex-grow-1 pe-lg-3">
                                 <Nav.Link href="../../App.js">Home</Nav.Link>
                                 <Nav.Link href="../../App.js">Shop</Nav.Link>
                                 <NavDropdown title="Get in Touch" id="offcanvasNavbarDropdown">

@@ -7,14 +7,12 @@ const Question = () => {
             <div>
                 <div class="container mb-5">
                     <div class="ticker">
-                        <div class="title">
-                            <h5>DO Yo Know ! 😬 </h5>
+                        <div class="title px-3">
+                            <h5>You Know What! 😍 </h5>
                         </div>
                         <div class="news">
                             <marquee class="news-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto </p>
-                                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam </p>
+                                <p>আমরা প্রোগ্রামিং হিরো হতে পারি বা না পারি, আমাদের উদ্দেশ্য হচ্ছে যারা সিরিয়াসলি প্রোগ্রামিং হিরো হতে চায় তাদের হেল্প করা। 🏃‍♂️🏃তাদের লার্নিং প্রসেসকে এঞ্জয়েবল এবং এফেক্টিভ করে তোলা। এই প্রচেষ্টায় আমরা নিত্য নতুন জিনিস শিখছি, চেষ্টা করছি। </p>
                             </marquee>
                         </div>
                     </div>
